@@ -8,7 +8,7 @@ from flask_cors import CORS
 import requests
 
 # Конфигурация
-BOT_TOKEN = "8281884357:AAH9ABK98yyPcdRDef91Lpqgf8ov5QgNn7o"
+BOT_TOKEN = "8523906756:AAGmlRufvfhz_4lGHbOWEvhqfOzJr0LbGcE"
 ADMIN_CHAT_ID = "-1003620844942"  # ID канала или админа
 OWNER_USERNAME = "@enclox"  # Для звезд
 
