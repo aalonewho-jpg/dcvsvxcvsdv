@@ -294,12 +294,12 @@ async def cmd_start(message: Message):
     if db.user_exists(user_id):
         # Отправляем WebApp
         keyboard = InlineKeyboardBuilder()
-        keyboard.add(InlineKeyboardButton(text="🎮 Открыть Test Faceit Leo", web_app=WebAppInfo(url="https://ваш-домен:8080")))
+        keyboard.add(InlineKeyboardButton(text="🎮 Открыть Test Faceit Leo", web_app=WebAppInfo(url="https://aalonewho-jpg.github.io/dcvsvxcvsdv/")))
         await message.answer("Добро пожаловать обратно! Нажми кнопку, чтобы открыть мини-приложение.", reply_markup=keyboard.as_markup())
     else:
         # Отправляем WebApp с регистрацией
         keyboard = InlineKeyboardBuilder()
-        keyboard.add(InlineKeyboardButton(text="📝 Зарегистрироваться", web_app=WebAppInfo(url="https://ваш-домен:8080")))
+        keyboard.add(InlineKeyboardButton(text="📝 Зарегистрироваться", web_app=WebAppInfo(url="https://aalonewho-jpg.github.io/dcvsvxcvsdv/")))
         await message.answer("Привет! Нажми кнопку и пройди регистрацию в нашем мини-приложении.", reply_markup=keyboard.as_markup())
 
 # --- Обработка данных из WebApp (через POST) ---
